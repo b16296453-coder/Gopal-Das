@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>শালিকা সর্বজনীন দুর্গা মন্দির</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="overlay">
+      <p class="welcome">শুভ শারদীয়া</p>
+      <h1>শালিকা সর্বজনীন দুর্গা মন্দির</h1>
+      <p class="subtitle">মা আসছেন • শারদীয়ার শুভেচ্ছা</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- ছবি গ্যালারি -->
+    <section class="section">
+      <h2>মন্দিরের ছবি</h2>
+      <div class="gallery">
+        <img src="images/photo1.jpg" alt="মন্দিরের ছবি ১">
+        <img src="images/photo2.jpg" alt="মন্দিরের ছবি ২">
+        <img src="images/photo3.jpg" alt="মন্দিরের ছবি ৩">
+        <img src="images/photo4.jpg" alt="মন্দিরের ছবি ৪">
+      </div>
+    </section>
+
+    <!-- ঢাকের সুইচ -->
+    <section class="dhak-box">
+      <div>
+        <h2>ঢাকের বাদ্য</h2>
+        <p>বাটনে চাপ দিলে ঢাকের সাউন্ড চালু/বন্ধ হবে</p>
+      </div>
+      <button id="dhakButton" class="sound-btn" aria-label="ঢাকের সাউন্ড চালু বা বন্ধ">
+        <span id="dhakIcon">🥁</span>
+        <span id="dhakText">ঢাক চালু করুন</span>
+      </button>
+      <audio id="dhakAudio" loop>
+        <!-- এখানে তোমার ঢাকের MP3 ফাইল বসবে -->
+        <source src="audio/dhak.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <!-- মহালয়া সং -->
+    <section class="section music-section">
+      <h2>মহালয়া সং</h2>
+      <div class="song-list">
+        <div class="song">
+          <div class="song-info"><span>১</span><b>মহালয়া সং ১</b></div>
+          <audio controls src="audio/mahalaya1.mp3"></audio>
+        </div>
+        <div class="song">
+          <div class="song-info"><span>২</span><b>মহালয়া সং ২</b></div>
+          <audio controls src="audio/mahalaya2.mp3"></audio>
+        </div>
+        <div class="song">
+          <div class="song-info"><span>৩</span><b>মহালয়া সং ৩</b></div>
+          <audio controls src="audio/mahalaya3.mp3"></audio>
+        </div>
+        <div class="song">
+          <div class="song-info"><span>৪</span><b>মহালয়া সং ৪</b></div>
+          <audio controls src="audio/mahalaya4.mp3"></audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- পুজোর গান -->
+    <section class="section music-section">
+      <h2>পুজোর গান</h2>
+      <div class="song-list">
+        <div class="song">
+          <div class="song-info"><span>১</span><b>পুজোর গান ১</b></div>
+          <audio controls src="audio/puja1.mp3"></audio>
+        </div>
+        <div class="song">
+          <div class="song-info"><span>২</span><b>পুজোর গান ২</b></div>
+          <audio controls src="audio/puja2.mp3"></audio>
+        </div>
+        <div class="song">
+          <div class="song-info"><span>৩</span><b>পুজোর গান ৩</b></div>
+          <audio controls src="audio/puja3.mp3"></audio>
+        </div>
+        <div class="song">
+          <div class="song-info"><span>৪</span><b>পুজোর গান ৪</b></div>
+          <audio controls src="audio/puja4.mp3"></audio>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>শালিকা সর্বজনীন দুর্গা মন্দির পরিচালনা কমিটি</p>
+    <p>শুভ শারদীয়া 🌺</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
